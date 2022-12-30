@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font: size 2%;
+    color: #b33c00;
+    font-weight: 500;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+th {text-align:left;
+    color: #b34e00;
+}
+td {
+    justify-content: center;
+    padding:20px;
+    
+  }
+#total { 
+    display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   margin-right: 60px;
+
+   
+  
+
+}
+#totalG{
+   height: 30px;
+   margin-right: 10px;
+}
+  

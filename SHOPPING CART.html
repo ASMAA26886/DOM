@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="shoppingstyle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="shoppingcode.js"></script>
+    <title>document</title>
+</head>
+
+<body>
+    <div>
+        <h1> TROTTI SHOPPING CART </h1>
+    </div>
+
+
+    <DIV id="table"></DIV><table style="width:100%">
+        <tr>
+            <th>Item</th>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>like</th>
+            <th>Price</th>
+            <th> </th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td><img src="images/troti2.png" style="width:30%"></td>
+            <td>BLUETROTTI</td>
+            <td> <button id="btp1" onclick="ROWP(1)">+</button>
+                <input type="number"  value="0" id="Quantity1" style="width:15%">
+                <button id="btm1" onclick="ROWM(1)">-</button>
+            </td>
+            <td><i id="heart1"  onclick= "like1()" class="fa fa-heart-o"></i></td>
+            <td id="Price1"> 1000 </td>
+            <td><button id="delete1" onclick= "Delete1()"> Delete </button>
+            </td>
+            <td id="total1">0</td>
+        </tr>
+        <tr>
+            <td><img src="images/troti.jfif" style="width:30%"></td>
+            <td>BLACKTROTTI</td>
+            <td> <button id="btp2"  onclick="ROWP(2)">+</button>
+                <input type="number" value="0" id="Quantity2"  style="width:15%">
+                <button id="btm2" onclick="ROWM(2)">-</button>
+            </td>
+            <td><i id="heart2" onclick= "like2()" class="fa fa-heart-o"></i></td>
+            <td id="Price2"> 1200 </td>
+            <td><button id="delete2" onclick= "Delete2()"> Delete </button>
+            </td>
+            <td id="total2">0</td>
+        </tr>
+        <tr>
+            <td><img src="images/TROTI3.jfif" style="width:30%"></td>
+            <td>REDTROTTI</td>
+            <td> <button id="btp3" onclick="ROWP(3)">+</button>
+                <input type="number" value="0" id="Quantity3"  style="width:15%">
+                <button id="btm3" onclick="ROWM(3)">-</button>
+            </td>
+            <td><i id="heart3" onclick= "like3()" class="fa fa-heart-o"></i></td>
+            <td id="Price3"> 1500 </td>
+            <td><button id="delete3" onclick= "Delete3()"> Delete </button>
+            </td>
+            <td id="total3" >0</td>
+        </tr>
+    </table> </DIV>
+ <div id="total">
+    <button  >TOTAL GENERAL</button> 
+    <h2 id="totalG">0</h2>
+ </div>
+
+
+
+
+</body>
+
+</html>
